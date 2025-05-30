@@ -1,0 +1,276 @@
+@import url(https://db.onlinewebfonts.com/c/86f81eed405e31caf488726b2b7760fd?family=Engrez+W03+Bold);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu-superior{
+  
+display: flex;
+ justify-content: space-between;
+ margin-right: 100px;
+  align-items: center;
+ font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.menu-superior nav{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    
+}
+
+.div{
+    background-color: #50e2ca;
+    color: black;
+    padding: 25px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contato{
+    background-color: #50e2ca;
+   padding: 19px;
+    border-radius: 5px;
+    
+   
+}
+
+.menu-item:hover{
+    
+    border-bottom: 4px solid #50e2ca;
+    
+}
+
+.menu-item:focus{
+    color: #50e2ca;
+    
+}
+
+.contato:hover{
+    color: black;
+    box-shadow: 0px 0px 10px #50e2ca;
+   transition: all 0.3s ease-out;
+}
+ a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: "Engrez W03 Bold";
+
+}
+
+.sobre {
+      display: flex;
+    padding: 50px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Engrez W03 Bold";
+   
+}
+
+.sobre p{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.sobre h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.sobre h2{
+    font-size: 28px;
+}
+
+.info{
+    background-color: #50e2ca;
+    max-width: 150px;
+    width: 100%;
+    padding: 18px;
+    text-align: center;
+     font-family: "Engrez W03 Bold";
+
+}
+
+.info:hover{
+    box-shadow: 0px 0px 10px #50e2ca;
+}
+.progresso{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.progresso h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Engrez W03 Bold";
+    border-bottom: 3px solid #50e2ca;
+    margin-bottom: 70px;
+    width: 100px;
+  
+}
+
+.progresso p{
+    font-family: "Engrez W03 Bold";
+    font-size: 18px;
+}
+
+.bloco h1{
+    text-align: center;
+    align-items: center;
+    font-family: "Engrez W03 Bold";
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.about{
+       display: flex;
+       padding: 50px;
+       gap: 100px;
+       justify-content: center;
+       align-items: center;
+   font-family: "Engrez W03 Bold";
+}
+.us{
+    font-size: 30px;
+    border-bottom: 3px solid #50e2ca;
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+.os{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.final{
+    background-color: #50e2ca;
+    padding: 5rem;
+    text-align: center;
+    
+}
+
+.final h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+.email{
+    padding: 30px;
+    border-radius: 50px;
+    margin-top: 50px;
+    width: 300px;
+ 
+
+}
+
+.submit{
+    padding: 24px;
+    border-radius: 50px;
+    position: relative;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #50e2ca;
+    width: 100px;
+ font-size: 16px; 
+ font-family: sans-serif;
+}
+.email:focus{
+    border: none;
+}
+
+.submit:hover {
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+::placeholder{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+     footer{
+        
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+
+html, body {
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@media (max-width: 768px) {
+
+
+a{
+    font-size: 15px;
+    
+}
+
+ .menu-superior {
+    flex-direction: column;
+    margin-right: 0;
+    margin-top: 20px;
+    gap: 15px;
+  }
+.progresso p{
+    font-size: 20px;
+    
+}
+.progresso{
+    margin-left: 10px;
+}
+
+footer{
+    padding: 10px;
+    font-size: 20px;
+}
+
+  .submit {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+    .sobre,
+  .about,
+  .progresso {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info {
+    max-width: 100%;
+  }
+
+  .email {
+    width: 90%;
+  }
+
+  .submit {
+    width: 90%;
+  }
+}
