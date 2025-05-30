@@ -1,3 +1,3 @@
-# course-portal
+# Lagin-page
 
-Um site de portal de cursos apenas o frond end sem adição de java script
+Uma lading page simples e responsiva(apenas front end)
