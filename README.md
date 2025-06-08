@@ -8,6 +8,16 @@
 
 # Descrição:
 
-Landing page responsiva com foco em apresentação de produto/serviço. Layout organizado, cores bem distribuídas e elementos pensados para conversão.
-Tecnologias: HTML5, CSS3
-Responsivo: Sim
+Página inicial promocional com foco em apresentação visual e chamada para ação. Projeto criado para treinar hero section, organização de conteúdo e responsividade.
+
+Recursos incluídos:
+
+🖼️ Seção principal com CTA e destaque visual
+
+📱 Layout responsivo adaptado para telas menores
+
+🧭 Estrutura em blocos com boa hierarquia
+
+🎨 Estilo moderno e minimalista
+
+⚙️ Código limpo com separação clara de seções
